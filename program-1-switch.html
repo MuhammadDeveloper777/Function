@@ -1,0 +1,33 @@
+<script type="text/javascript">
+
+//Write Week Day to Week Number Converter
+
+	function weekDayToWeekNumberComverter(word) 
+	{
+		switch(word)
+			{
+				case 'Monday':
+					document.write(number[0]);
+					break;
+				case 'Thuesday':
+					document.write(number[1]);
+					break;
+				case 'Wednesday':
+					document.write(number[2]);
+					break;
+				case 'Thusday':
+					document.write(number[3]);
+					break;
+				case 'Friday':
+					document.write(number[4]);
+					break;
+				default:
+					document.write('Translation not find');
+			}
+	}
+
+	let number=[1, 2, 3, 4, 5];
+	let  word=prompt('enter week days name Monday, Thuesday, Wednesday, Thusday, Friday')
+	weekDayToWeekNumberComverter(word)
+
+</script>

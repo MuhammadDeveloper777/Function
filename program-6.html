@@ -1,0 +1,38 @@
+<script type="text/javascript">
+	//Week number to week name converter
+	//define function
+	function WeekNameToweekNumberConverter(name)
+	{
+		 let number
+		 	switch(name)
+		 {
+		 		case "Week1":
+			 		number=1;
+			 		break;
+			 	case "Week2":
+			 		number=2;
+			 		break;
+			 	case "Week3":
+			 		number=3;
+			 		break;
+			 	case "Week4":
+			 		number=4;
+			 		break;
+			 	case "Week5":
+			 		number=5;
+			 		break;
+			 	default:
+			 		number="no Translation found";
+		 
+
+		}
+		return number
+	}
+//call function
+let number=[1, 2, 3, 4, 5];
+let name=prompt("Enter Week1, Week2, Week3, Week4, Week5");
+let n=WeekNameToweekNumberConverter(name);
+document.write(n);
+
+	
+</script>
